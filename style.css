@@ -5,19 +5,28 @@
 
 body {
     background-color: aquamarine;
+    text-align: center;
+    justify-content: center;
 }
 
 div{
-  padding: 40px;
-  background-color: antiquewhite;
-  width: 50%;
 
+
+}
+
+.terminal {
+background-color: brown;
+display: flex;
+justify-content: space-between;
+gap: 12px;
 }
 
 img {
   width: 100px;
 height: 150px;
 }
-.container {
-  
+.card {
+  padding: 40px;
+  background-color: antiquewhite;
+  width: 33.3%;
 }
